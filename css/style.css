@@ -112,3 +112,98 @@ nav{
 .service-container p{
     line-height: 24px;
 }
+
+/* planos e preços */
+
+.preço-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.preço-container h2{
+    font-size: 36px;
+}
+.preço-container p{
+    font-size: 20px;
+}
+.planos-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+.planos{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+.planos ul{
+    padding: 0;
+}
+.planos li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+.planos .nome-plano{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+.planos .preço{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0;
+    background-color: #202b34;
+    color: #fff;
+}
+.planos .plano-btn{
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* domimio */
+
+.dominio-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+.dominio-container h2{
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.dominio-container p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.dominio-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.dominio-container input[type=text]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.dominio-container input[type=submit]{
+    background-color: #2cc762;
+    padding: 15px 30px;
+    cursor: pointer;
+}
