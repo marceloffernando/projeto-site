@@ -231,7 +231,7 @@ nav{
 @media(max-width: 576px){
     .nav-itens{
         font-size: 12px;
-        margin-left: 10px;
+        
     }
     .main-banner p{
         padding: 0 2rem;
@@ -251,5 +251,9 @@ nav{
     }
     .preço-container p{
         width: 95%;   
+    }
+    ::placeholder{
+        font-size: 16px ;
+        text-align: center;
     }
 }
