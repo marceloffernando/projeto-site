@@ -221,4 +221,35 @@ nav{
 }
 
 /* TABLET 900PX */
-@media
+@media(max-width: 900px){
+    .main-banner p{
+        padding: 0 6rem;
+    }
+}
+
+/* CELULAR */
+@media(max-width: 576px){
+    .nav-itens{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .main-banner p{
+        padding: 0 2rem;
+    }
+    .service-container ul{
+        flex-direction: column;
+    }
+    .planos-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .planos{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .preço-container p{
+        width: 95%;   
+    }
+}
