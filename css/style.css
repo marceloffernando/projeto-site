@@ -231,10 +231,19 @@ nav{
 @media(max-width: 576px){
     .nav-itens{
         font-size: 12px;
+        padding-left: 10px;
         
+    }.nav-itens li {
+        margin-left:  10px;
+    }
+    .nav-container{
+        padding: 10px;
     }
     .main-banner p{
         padding: 0 2rem;
+    }
+    .default-btn{
+        font-size: 12px;
     }
     .service-container ul{
         flex-direction: column;
@@ -253,7 +262,7 @@ nav{
         width: 95%;   
     }
     ::placeholder{
-        font-size: 16px ;
+        font-size: 14px ;
         text-align: center;
     }
 }
